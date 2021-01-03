@@ -14,7 +14,41 @@
         <script data-ad-client="ca-pub-8183455294884477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
     <body>
-        <img src="operator_in_C.png"width="500" height="300">
+        <img src="operator_in_C.png"width="700" height="400">
+        <p>&emsp;&emsp;先來說說++吧</p>
+        <p>&emsp;&emsp;++分為先++與後++，例如:a++,++a</p>
+        <p>&emsp;&emsp;假設a = 5，b = a++</p>
+        <p>&emsp;&emsp;b會等於5。</p>
+        <p>&emsp;&emsp;假設a = 5，b = ++a</p>
+        <p>&emsp;&emsp;b會等於6。</p>
+        <p>&emsp;&emsp;--也是同一個道理，這裡就不多做敘述。</p>
+        <p>&emsp;&emsp;練習一下：</p>
+        <p>#include &lt;stdio.h&gt;</p>
+
+            <br>int main(void)</br>
+            <br>{</br>
+               <br>&emsp;&emsp;int a = 31;</br>
+               <br>&emsp;&emsp;int b = 20;</br>
+               <br>&emsp;&emsp;int c ;</br>
+
+               <br>&emsp;&emsp;c = a % b; // get the remainder</br>
+               <br>&emsp;&emsp;printf("a: %d; b: %d; c: %d\n", a, b, c);</br>
+
+               <br>&emsp;&emsp;c=a++;</br>
+               <br>&emsp;&emsp;printf("a: %d; b: %d; c: %d\n", a, b, c);</br>
+
+               <br>&emsp;&emsp;c=--b;</br>
+               <br>&emsp;&emsp;printf("a: %d; b: %d; c: %d\n", a, b, c);</br>
+
+               <br>&emsp;&emsp;return 0;</br>
+            <br>}</br> 
+
+        <p>請問會輸出什麼呢？（如果有辦法跑一次的話最好喔！！！）</p>
+<br>
+<br>
+<br>
+        <p>ans:</p>
+        <img src="ans_for_operator_in_C.png"width="300" height="100">
     </body>
   
 </html>
