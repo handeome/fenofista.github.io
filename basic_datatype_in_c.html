@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>C語言學習</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170239001-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-170239001-1');
+        </script>
+        <script data-ad-client="ca-pub-8183455294884477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body>
+        <p>basic datatype in c</p>
+        <p>inteiger(整數，ex:43,5）</p>
+        <p>floatint-point numbers(浮點數，簡單一點就是含有小數，ex:3.88）</p>
+        <p>characters(字元，ex:"a", "b", "D", "5', .....)</p>
+        <p>特別注意的是數字可以是字元也可以是整數。ex:5,"5"。</p>
+        <p>宣告方法：</p>
+        <p>int a = 50;</p>
+        <p>float b = 30.45;</p>
+        <p>char c = "r";</p>
+        
+        <p>練習一下：</p>
+        <p>請輸入下列程式碼：（不要用複製貼上，一定要親自打一遍喔～）</p>
+        <p>#include&lt;stdio.h&gt;</p>
+        <p>int main()</p>
+        <p>{
+        <br>&emsp;&emsp;int a;
+        <br>&emsp;&emsp;float b;
+        <br>&emsp;&emsp;char c;
+        <br>&emsp;&emsp;printf("請輸入整數a:\n");
+        <br>&emsp;&emsp;scanf("%d",&a);
+        <br>&emsp;&emsp;printf("請輸入浮點數b:\n");
+        <br>&emsp;&emsp;scanf("%f",&b);
+        <br>&emsp;&emsp;printf("請輸入字元c:\n");
+        <br>&emsp;&emsp;scanf(" %c",&c);
+        <br>&emsp;&emsp;printf("%d %f %c\n", a, b, c);
+        <br>&emsp;&emsp;return 0;
+        <br>}
+        <br>\n代表會換行。
+        <br>每輸入一個值就要按一次ener。（但是字元的部分會讀到enter鍵，所以要在%c前面加一個空格，才不會讀到上一個浮點數的enter鍵）
+        <br>確認輸出的a,b,c跟輸入的有沒有一樣。
+    </body>
+  
+</html>
