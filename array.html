@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>C語言學習</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170239001-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-170239001-1');
+        </script>
+        <script data-ad-client="ca-pub-8183455294884477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body>
+        <p><font size="5">陣列(array)</font></p>
+        <br>基本的陣列(array)分為三種：整數陣列，浮點數陣列，字元陣列。
+        <br>我們可以把陣列想成是一輛火車，每節車廂都可以載一個元素，假設有10節車廂，則能載十個元素。
+        <br>整數陣列：火車的每節車廂只能載整數。
+        <br>浮點數陣列：火車的每節車廂只能載浮點數。
+        <br>字元陣列：火車的每節車廂只能載字元。
+        <br>來看看幾個例子吧！
+        <br>首先要如何宣告一個陣列呢？
+        <br>一維陣列的宣告如下:（之後會說明二維陣列，三維陣列.....)
+        <br>&emsp;&emsp;int array_int[10];（代表可以裝10個元素的整數陣列）
+        <br>&emsp;&emsp;float array_float[10];（代表可以裝10個元素的浮點數陣列）
+        <br>&emsp;&emsp;char array_char[10];（代表可以裝10個元素的字元陣列）
+        <br>再來要如何使用陣列呢？
+        <br>我們可以這樣做：
+        <br>&emsp;&emsp;array_int[3] = 7;(代表把整7數裝進陣列array_int的第三個位置（第三節車廂)。
+        <br>要注意的是，陣列裡的位置是從0開始的，也就是說如果array_int只能裝10個元素的話，只有:array_int[0], array_int[1]......, array_int[9]。
+        沒有array_int[10]喔！！
+        <br>再來我們把陣列裡每個位置都裝一個整數吧。
+        <br>array_int[0] = 10;
+        <br>array_int[1] = 9;
+        <br>array_int[2] = 8;
+        <br>array_int[4] = 6;
+        <br>array_int[5] = 5;
+        <br>array_int[6] = 4;
+        <br>array_int[7] = 3;
+        <br>array_int[8] = 2;
+        <br>array_int[9] = 1;
+        
+        <br>接下來把陣列裡的元素都輸出看看，會是什麼樣子呢？
+        <br>這邊就舉例輸出array_int[3]：
+        <br>&emsp;&emsp;printf("array_int[3] = %d",array_int[3]);
+        <p></p>
+        <br>練習一下：
+        <br>試著宣告一個能裝5個元素的字元陣列，並且把"ARRAY"裝進陣列裡，並且輸出看看。
+        <p></p>
+        <p></p>
+        <br>ans:
+        <br><img src="ans_for_array.png"width="1000" height="400">
+    </body>
+  
+</html>
