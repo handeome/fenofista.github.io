@@ -1,25 +1,26 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(void)
+int main()
+
 {
-
-  int a = 31;
-
-  int b = 20;
-
-  int c ;
-
-  c = a % b; // get the remainder
-
-  printf("a: %d; b: %d; c: %d\n", a, b, c);
-
-  c=a++;
-
-  printf("a: %d; b: %d; c: %d\n", a, b, c);
-
-  c=--b;
-
-    printf("a: %d; b: %d; c: %d\n", a, b, c);
-    return 0;
-
+    int test1;
+    int test2;
+    test1 = 15;
+    test2 = 10;
+    if(test1>test2){
+        if(test1-test2>3){
+            printf("test1 is bigger than test2 and test1 - test2 is bigger than 3\n");
+        }
+        else{
+            printf("test1 is bigger than test2 but test1 - test2 is smaller than 3\n");
+        }
+    }
+    else{
+        if(test2-test1>3){
+            printf("test2 is bigger than test1 and test2 - test1 is bigger than 3\n");
+        }
+        else{
+            printf("test1 is bigger than test2 but test2 - test1 is smaller than 3\n");
+        }
+    }
 }
