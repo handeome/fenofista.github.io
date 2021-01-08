@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>C語言學習</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170239001-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-170239001-1');
+        </script>
+        <script data-ad-client="ca-pub-8183455294884477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body>
+        <p>   #include &lt;stdio.h&gt; </p>
+
+        <p>int main()</p>
+        <p>{</p>
+        <p>&emsp;&emsp;int a;</p>
+        <p>&emsp;&emsp;scanf("%d",&a);</p>
+        <p>&emsp;&emsp;printf(a);</p>
+        <p>&emsp;&emsp;return 0;</p>
+        <p>}</p>
+        <p>首先我們可以看到第一行的#include &lt;stdio.h&gt;，這行的作用是把stdio.h函式庫裡的函式全部包到這個檔案裡，因為我們待會會用到裡面的函式。</p>
+        <p>第二行為int main()，main()是一個function代表程式會從這個function開始執行，前面的int代表main() function會回傳一個int型態的數值。</p>
+        <p>第三行的int a為宣告一個型態為int的變數，在我們使用任和變數之前都一定要宣告，不然電腦會不知道為宣告的變數是什麼東東。</p>
+        <p>第四行的scanf("%d",&a)代表我們用鍵盤輸入一個數值，例如25，此時就會把這個數值傳給a，也就是，a = 25，注意&的符號，他代表把輸入的值傳給a的地址，每一個變數都有自己在電腦裡儲存位置的地址，當我們把25放到這個a的地址時，a的直就會是25。</p>
+        <p>%d代表整數，之後會學到%f(浮點數），%c(字元），等等的資料型態。</p>
+        <p>第五行的printf(a)代表把a的數值給輸出出來，所以如果剛剛輸入25，此時就會輸出25。</p>
+        <p>要注意的是scanf()函式與printf()函式都屬於stdio.h函式庫裡的函式，所以一開始已定要include stdio.h才能使用</p>
+        <p>最後的return 0代表此main function回傳0（代表程式正常執行），如果在中間停止的話就不會回傳0，代表執行失敗。</p>
+    </body>
+  
+</html>
